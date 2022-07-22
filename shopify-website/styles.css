@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(193, 192, 192, 0.41);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: auto;
+    color: #000;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 5px;
+    margin-left: 25px;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+nav > ul > li > a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+nav > h2 {
+    font-size: 2.5rem!important;
+}
+
+.mar-top {
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hero > section {
+    width: 40%;
+    padding: 5%;
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.right-cont > img {
+    margin-top: -10%;
+    /* height: 500px; */
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+button {
+    width:fit-content !important;
+    padding: 5px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.services, .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+  
+
+}
+
+ .card-section > h2 {
+    text-align: center;
+}
+
+
+.services > h2 {
+    text-align: center;
+}
+
+.services > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container > section {
+    width: 40%;
+    padding: 4%;
+}
+
+.services-text {
+    align-items: center;
+    margin: 6%;
+}
+
+.services-img {
+    margin-left: 5px;
+}
+
+.right-container > img {
+    width: 500px;
+}
+
+.card-section > p {
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards > section {
+    width: 400px;
+   border: 2px solid #000;
+    margin: 10px;
+    text-align: center;
+    padding: 5%;
+}
+
+.cards > section > img {
+    width: 300px;
+    margin: 5px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin: 5%;
+}
+
+.benefit-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.benefit-details > section {
+    border: 2px solid #000;
+    margin: 2px;
+    height: fit-content;
+    width: 300px;
+    padding: 50px;
+
+}
+
+.project-ideas {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.project-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: fit-content;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.pricing-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: fit-content;
+    width: 400px;
+    padding: 5%;
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+width: 100%;
+    margin: auto;
+}
